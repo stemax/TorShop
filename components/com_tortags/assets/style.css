@@ -1,0 +1,232 @@
+.tt-cats {
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.tt-category {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border: 1px dashed #C3C3C3;
+    border-radius: 4px;
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.tt-pagenav-results {
+    border-radius: 4px;
+    border: 1px solid #c3c3c3;
+    font-size: 10px;
+}
+
+.tt-strong-search-box {
+    float: right;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #c3c3c3;
+    display: inline-block;
+}
+
+.tt-strong-search-box label {
+    cursor: pointer;
+}
+
+.tt-result-list {
+    padding-bottom: 4px;
+    border-radius: 4px;
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.tt-tag-list {
+    padding-bottom: 10px;
+}
+
+.tt-cats-alpha, .tt-tag-list {
+    width: 100%;
+    display: inline-block;
+}
+
+.tt-ntfd {
+    font-size: 10px;
+    color: #666;
+}
+
+.tt-center ul {
+    text-align: center !important;
+    width: 100%;
+}
+
+.tt-alphabet {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px !important;
+    list-style: none outside none;
+    float: left;
+    clear: both;
+}
+
+.tt-alphabet li {
+    display: inline;
+}
+
+.tt-alphabet li a {
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.tt-alpsel {
+    font-weight: bold;
+    font-size: large;
+}
+
+.tortags-search-results {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tortags-result-box {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    width: 99%;
+}
+
+.tortags-result-title {
+    float: left;
+    color: #555555;
+    font-family: 'Titillium Maps', Arial;
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-bottom: 7px;
+    padding: 3px 0;
+}
+
+.tortags-info {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    float: right;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.tortags-result-box-title {
+    display: inline-block;
+    width: 100%
+}
+
+.tortags-tags {
+    font-size: 10px;
+    padding: 2px;
+}
+
+.tt-show {
+    display: block;
+    position: relative;
+}
+
+.tt-hide {
+    position: relative;
+    display: none;
+}
+
+.tt-icon-search {
+    left: 1px;
+    position: absolute;
+    top: 5px;
+    -moz-box-orient: vertical;
+    background-image: url("images/search.png") !important;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.tt-tag-input {
+    border-radius: 12px 12px 12px 12px;
+    height: auto;
+    outline: medium none;
+    vertical-align: top;
+    width: 225px;
+    background: -moz-linear-gradient(center top, #F5F5F5, #FFFFFF) repeat-x scroll center top #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    border-bottom: 1px solid #DDDDDD;
+    color: #0D4C89;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.19em;
+    margin: 0 -5px 10px;
+    padding: 5px 5px 5px 31px;
+}
+
+.tth {
+    width: 100%;
+}
+
+.tt-edit {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 0px;
+    margin: 0;
+}
+
+.tt_readmore {
+    float: right;
+    padding: 4px;
+    display: inline-block;
+}
+
+.tt_add_sel_tags {
+    border: 2px solid #C3C3C3;
+    border-radius: 5px;
+    color: #025A8D;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    background: -moz-linear-gradient(center top, #FFFFFF, #CCCCCC) repeat scroll 0 0 transparent;
+}
+
+.tt_add_sel_tags:hover {
+    background: -moz-linear-gradient(center top, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
+}
+
+.tt_adminlist {
+    background-color: #F3F3F3;
+    border-spacing: 1px;
+    color: #666666;
+    width: 100%;
+}
+
+.tt_adminlist tr.row1 td {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-top: 1px solid #FFFFFF;
+}
+
+.tt_adminlist td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.tt_adminlist .pagination ul {
+    text-align: center !important;
+}
+
+.tortags-cat {
+    padding: 5px;
+}

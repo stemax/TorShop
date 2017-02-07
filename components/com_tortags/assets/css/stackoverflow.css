@@ -1,0 +1,184 @@
+/**
+* TorTags component for Joomla 1.6, Joomla 1.7, Joomla 2.5, Joomla 3.x
+* @package TorTags
+* @author Tormix Team
+* @Copyright Copyright (C) Tormix, www.tormix.com
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html
+*/
+
+/*GLOBAL*/
+.tt_button_add {
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.tt_info_box {
+    float: right;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.tt_add_form_new {
+    color: #666666;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.tt_new_tags {
+    float: left;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.tt_add_form {
+    display: inline-block;
+    border: 1px dashed #c3c3c3;
+    border-radius: 4px;
+    clear: both;
+    margin-top: 4px;
+}
+
+.tt_show_all_text {
+    float: right;
+}
+
+.tt_hidden_tags {
+    display: none;
+}
+
+.tt_show_tags {
+    display: block;
+}
+
+.tt_cats_pretext {
+    float: left;
+    padding-right: 3px;
+}
+
+.tt_cat {
+    background-image: url("../images/tt_cats.png");
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+
+/**/
+
+.tt-tags {
+    padding: 2px;
+    clear: both;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+.tt_button {
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 1px 2px;
+    text-decoration: none;
+    float: left;
+    background-color: #E0EAF1;
+    border-bottom: 1px solid #B3CEE1;
+    border-right: 1px solid #B3CEE1;
+    color: #3E6D8E;
+    display: inline-block;
+    line-height: 1.4;
+    margin: 2px 2px 2px 0;
+    padding: 3px 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tt_button:hover {
+    position: relative;
+    background-color: #C4DAE9;
+    border-bottom: 1px solid #C4DAE9;
+    border-right: 1px solid #C4DAE9;
+    text-decoration: none;
+}
+
+.tt_end {
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+.tt_button {
+    margin-top: 3px; /*margin-right: 5px;*/
+    margin-left: 2px;
+}
+
+.tt_end a, .tt_end span {
+    line-height: 18px;
+}
+
+.tt_inpval {
+    border-radius: 5px;
+    float: left;
+    height: 20px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.tt_button img {
+    margin: 3px 1px 1px 2px;
+    float: left;
+}
+
+.tt_end a:hover, .tt_end span:hover {
+    color: white;
+}
+
+.tt_img, .tt_img_end, .tttag {
+    cursor: pointer;
+}
+
+.tt_deltag {
+}
+
+.tt_img {
+    display: none;
+}
+
+.tt_img_end {
+    display: none;
+}
+
+.tttag {
+    background-position: right -23px !important;
+}
+
+.tt_notice_new {
+    padding-left: 20px;
+    background: url('../images/about.png') no-repeat;
+}
+
+.tt_notice, .tt_error {
+    background: none repeat scroll 0 0 #D14008;
+    color: #FDE910;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.tt_success {
+    background: none repeat scroll 0 0 green;
+    color: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.tt_pretext {
+    float: left;
+    padding-top: 11px;
+    width: auto;
+}
+
+.tt_link:hover {
+    text-decoration: none;
+    background: none !important;
+}
+
+.tt_link {
+    text-decoration: none;
+    background: none;
+}

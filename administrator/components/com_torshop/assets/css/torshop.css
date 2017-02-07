@@ -1,0 +1,59 @@
+
+/*** TORSHOP ***/
+
+/*** GLOBAL ***/
+.adminformlist {
+    list-style: none outside none !important;
+}
+
+.adminformlist label {
+    display: inline-block;
+    width: 180px;
+}
+
+.adminformlist li {
+    display: block;
+    width: 100%;
+    clear: both;
+    float: none;
+}
+
+/***CPANEL ***/
+
+.cpanel .cp_block {
+    width: 200px;
+    height: 225px;
+    border: 1px solid #c3c3c3;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 1px 2px #c4c4c4;
+    text-shadow: 1px 1px 1px #c3c3c3;
+}
+
+.cpanel .cp_block:hover {
+    border: 1px solid #2f96b4;
+}
+
+.cpanel .cp_block span
+{
+    width: 300px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.cpanel .cp_block img
+{
+    padding-bottom: 5px;
+}
+
+
+/*** ICONS ***/
+
+.icon-48-settings {
+    background-image: url("../images/settings.png");
+}
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <form
+            addfieldpath="/administrator/components/com_tortags/models/fields"
+            >
+        <field name="asset_id" type="hidden" filter="unset"/>
+        <fieldset
+                name="style"
+                label="COM_TORTAGS_STYLE_SETTINGS"
+                >
+            <field
+                    name="style"
+                    type="torstyle"
+                    label="COM_TORTAGS_STYLE"
+                    class="inputbox"
+                    default="default.css"
+                    />
+        </fieldset>
+        <fieldset
+                name="permissions"
+                label="JCONFIG_PERMISSIONS_LABEL"
+                descriptionription="JCONFIG_PERMISSIONS_DESC"
+                >
+            <field
+                    name="rules"
+                    type="rules"
+                    label="JCONFIG_PERMISSIONS_LABEL"
+                    class="inputbox"
+                    validate="rules"
+                    filter="rules"
+                    component="com_tortags"
+                    section="component"
+                    />
+        </fieldset>
+    </form>
+</config>

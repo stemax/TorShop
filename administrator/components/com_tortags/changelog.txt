@@ -1,0 +1,130 @@
+Changelog:
+------ [April 2016]----
++ Fix for editor for J!3.5+
++ Query optimization
++ Code review + minor fixes
+
+------ [February 2014]----
++ New styles
++ Sinchronization with Joomla native tags 3.x+!!!
++ New import from Virtuemart!!!
++ Now, work new feature for replace special symbols
++ Fix bug with ACL permissions
+...
++ New options in settings
++ Fix, fix, fix bugs and create & create & create a new functional...
+
+------ [August 2013]----
++ Fix content plugin for new articles
++ Update format code
+
+------ [March 2013] -----
++ Fix attched tag bug
++ Categories of article in search results
++ Update language files
++ Update alphabetical symbols
++ Compatible with SobiPro
++ Etc bug fix
+
+------ [February 2013] -----
++ Added modification for display images in result page for joomgallery
++ Fixed system plugin error when add or select tags
++ Display tag description on result page
++ SH404 SEF Plugin for tortags[in optional folder]
++ Now you can select tags when you create new article
++ fix MultiLanguage bugs
++ Update system plugin
++ Update links in modules for good SEF
+- Strict alerts (PHP<=5.4.11) in modules.
++ Etc bug fix
+
+------ [January 2013] -----
++ Update meta insert.
++ Update search by category.
++ Added category description.
+- Strict alerts (PHP<=5.4.11) on FE.
++ Update modules.
++ Modificated the link type of category.
++ Update Import/Export section. Update Import the archive aricles.
++ Update Import/Export section. Sinchronization with EasyBlog and EasyDiscuss.
++ Update Import/Export section. Update Import from/to metakeys.
+- Bug duplication of space in metakey
+- Delete strict warnings in BE
++ Update view for category/tag/listof tags. Added global metakey and description
++ New options in the settings:
+++ Enable highlight
+++ Update empty tags aliases
+
+------ [December 2012] -----
++ Update Import/Export section. Import the archive aricles.
++ New option  "Delete 'tag' in url address?" in SEF config
++ New plugin for EasyBlog
+- Bug "empty tags"
+- Bug "pagenav + tag" in url
+
+------ [November 2012] -----
++ Compatible with Joomla! 3.x!
++ Categories
++ Aliases
++ New settings
++ Multilanguage
++ New styles
++Bug fix
+...
+------ [May-2012] ------
++ Multitags
++ W3C
++ VirturMart comp. fix
++ bug fix
+----- [April-2012] -----
++ Autocompleter js ->fixed
++ hide unpublished state -> fixed
+
+----- 2.5.0 --> [January-2012] -----
++ Compatible with Joomla! (1.6, 1.7, 2.5)
++ New languages ru-RU, es-ES, de-DE (by google translate :)
+BE:
++ Added a count of the number of tags for each component
++ List of components became more beautiful and informative
++ Added a special links table (links of component and tags with an additional information)
++ Added ability to view and delete links with tags
+
++ List of tags became more beautiful and informative
++ Added "Number of components using this tag"
++ Added "Hits" for tags
+
++ Updated settings system
++ Added "Autocompleter"
++ New "Results Page Settings"
++ New function "Delete unassigned tags"
++ Updated style settings
++ Added "List of css files", "Preview", "Edit CSS"
++ Added new style "Css3"
+
++ Updated system search for items
++ bugs fixed
+
+FE:
++ New search technology(added a separate page to search through the component without using com_search)
++ Added ability to add new tags to the new unsaved elements(articles)
++ When displaying the search results you can see all attached tags for each elements
++ Created a new module "TorTags hits"
++ Updated "TorTags links" module
++ bugs fixed
+
+
+----- 1.0.1 --> [November-2011] -----
++ Option of different styles for tags (in settings)
++ Possibility of adding menu link in menu manager to make page with all tags in website. 
++ Possibility of adding tags separated by commas
++ Improved system for work out with selection components and fields
++ bugs fixed
+- deleted ads
+
+----- 1.0.0 --> [November-2011] -----
++ New tortags module
++ Options in search plugin
+
+----- 1.0.0 Released --> [October-2011] -----
+- Relise first version
+ # Released.

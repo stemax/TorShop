@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+        addfieldpath="/administrator/components/com_tortags/models/fields"
+        >
+    <fieldset
+            name="details"
+            label="COM_TORTAGS_TAG_FIELDSET_DETAILS"
+            >
+        <field
+                name="id"
+                type="hidden"
+                />
+        <field
+                name="title"
+                type="text"
+                label="COM_TORTAGS_TAG"
+                description="COM_TORTAGS_TAG_DESC"
+                size="40"
+                class="inputbox"
+                required="true"
+                default=""
+                />
+
+        <field
+                name="alias"
+                type="text"
+                label="COM_TORTAGS_ALIAS"
+                description="COM_TORTAGS_ALIAS_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="hits"
+                type="text"
+                label="COM_TORTAGS_HITS"
+                description="COM_TORTAGS_HITS_DESC"
+                size="3"
+                class="inputbox"
+                maxlength="5"
+                default="0"
+                />
+
+        <field name="language" type="contentlanguage" label="JFIELD_LANGUAGE_LABEL"
+               description="COM_CONTENT_FIELD_LANGUAGE_DESC" class="inputbox"
+                >
+            <option value="*">JALL</option>
+        </field>
+
+        <field name="published" type="list" label="JSTATUS"
+               description="JFIELD_PUBLISHED_DESC" class="inputbox"
+               filter="intval" size="1" default="1"
+                >
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field>
+
+
+        <field name="catid" type="ttcat"
+               label="JCATEGORY" description="JFIELD_CATEGORY_DESC"
+               class="inputbox"
+                />
+
+        <field
+                name="description"
+                type="textarea"
+                label="COM_TORTAGS_TAG_DESCR"
+                description="COM_TORTAGS_TAG_DESCR_DESC"
+                cols="3"
+                rows="4"
+                class="inputbox"
+                default=""
+                />
+
+    </fieldset>
+</form>
+

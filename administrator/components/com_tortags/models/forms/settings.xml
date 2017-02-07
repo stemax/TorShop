@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/administrator/components/com_tortags/models/fields">
+    <fieldset name="settings"
+              label="COM_TORTAGS_SETTINGS_GLOBAL"
+              description="COM_TORTAGS_SETTINGS_GLOBAL_DESC"
+            >
+
+        <field
+                name="url_spec_symbols"
+                type="textarea"
+                label="Additional sybmols"
+                description="(comma separated) Ex: a,c,e"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="url_spec_replacers"
+                type="textarea"
+                label="Additional replace on"
+                description="(comma separated) Ex: b,d,f "
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="alphabet_list"
+                type="textarea"
+                label="Alphabet list of symbols"
+                description="(comma separated)"
+                class="inputbox tt_alphabet_list"
+                default="A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+                />
+
+        <field
+                name="show_contet_cat_in_results"
+                type="list"
+                label="Show categories"
+                description="Show categories of article (only for com_content)"
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="meta_order"
+                type="list"
+                label="Meta ordering"
+                description=""
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">Before the main title</option>
+            <option value="0">After the main title</option>
+        </field>
+
+        <field
+                name="del_tag_in_url"
+                type="list"
+                label="COM_TORTAGS_SEF_ADD_TAG_INADDRESS"
+                description=""
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="result_open_type"
+                type="list"
+                label="COM_TORTAGS_RPS_OPEN_TYPE"
+                description="COM_TORTAGS_RPS_OPEN_TYPE_DESC"
+                class="inputbox"
+                default="0"
+                >
+            <option value="0">COM_TORTAGS_RPS_OPEN_TYPE_SELF</option>
+            <option value="1">COM_TORTAGS_RPS_OPEN_TYPE_NEW</option>
+        </field>
+        <field
+                name="result_limit"
+                type="text"
+                label="COM_TORTAGS_RPS_LIMIT"
+                description="COM_TORTAGS_RPS_LIMIT_DESC"
+                class="inputbox"
+                size="5"
+                maxlength="3"
+                default="20"
+                />
+        <field
+                name="search_exact"
+                type="list"
+                label="COM_TORTAGS_RPS_EXACT"
+                description="COM_TORTAGS_RPS_EXACT_DESC"
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="result_use_search_prepare"
+                type="list"
+                label="COM_TORTAGS_USE_SEARCH_PREPARE"
+                description="COM_TORTAGS_USE_SEARCH_PREPARE_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field
+                name="result_show_enable_highlighting"
+                type="list"
+                label="COM_TORTAGS_SHOW_ENABLE_HIGHLIGHTING"
+                description="COM_TORTAGS_SHOW_ENABLE_HIGHLIGHTING_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="result_show_numbers"
+                type="list"
+                label="COM_TORTAGS_RESULT_NUMBERS_ENABLED"
+                description="COM_TORTAGS_RESULT_NUMBERS_ENABLED_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field
+                name="result_date_enabled"
+                type="list"
+                label="COM_TORTAGS_RPS_SHOW_DATE"
+                description="COM_TORTAGS_RPS_SHOW_DATE_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field
+                name="result_tags_enabled"
+                type="list"
+                label="COM_TORTAGS_RPS_SHOW_TAGS"
+                description="COM_TORTAGS_RPS_SHOW_TAGS_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="multilang_mode_enabled"
+                type="list"
+                label="COM_TORTAGS_MULTILANG_MODE"
+                description="COM_TORTAGS_MULTILANG_MODE_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="tooltip_enabled"
+                type="list"
+                label="COM_TORTAGS_TOOLTIP_ENABLED"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="sinchronization_meta"
+                type="list"
+                label="COM_TORTAGS_METAKEY_SINC_ENABLED"
+                description="COM_TORTAGS_METAKEY_SINC_ENABLED_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field
+                name="autopublish_new"
+                type="list"
+                label="COM_TORTAGS_AUTOPUBLISH_FORNEW_ENABLED"
+                description="COM_TORTAGS_AUTOPUBLISH_FORNEW_ENABLED_DESC"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="alias_replace_symbol"
+                type="list"
+                label="COM_TORTAGS_ALIAS_REPLACE_SYMBOL"
+                class="inputbox"
+                default="_"
+                >
+            <option value="-">- (hyphen)</option>
+            <option value="_">_ (underline)</option>
+        </field>
+
+        <field
+                name="style"
+                type="torstyle"
+                label="COM_TORTAGS_STYLE"
+                class="inputbox"
+                default="red_tags.css"
+                />
+
+        <field
+                name="autocompleter_enabled"
+                type="list"
+                label="COM_TORTAGS_AUTOCOMPLETER_ENABLED"
+                class="inputbox"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field
+                name="autocompleter_type"
+                type="list"
+                label="COM_TORTAGS_AUTOCOMPLETER_TYPE"
+                class="inputbox"
+                default="0"
+                >
+            <option value="0">COM_TORTAGS_AUTOCOMPLETER_TYPE_ALL_COMP</option>
+            <option value="1">COM_TORTAGS_AUTOCOMPLETER_TYPE_ONLY_CUR</option>
+        </field>
+        <field
+                name="autocompleter_limit"
+                type="text"
+                label="COM_TORTAGS_AUTOCOMPLETER_LIMIT"
+                class="inputbox"
+                size="5"
+                maxlength="4"
+                default="200"
+                />
+
+        <field
+                name="result_ordering"
+                type="list"
+                label="COM_TORTAGS_RPS_ORDERING"
+                class="inputbox"
+                default="created"
+                >
+            <option value="title">COM_TORTAGS_RPS_ORDERING_BY_NAME</option>
+            <option value="created">COM_TORTAGS_RPS_ORDERING_BY_CREATED</option>
+        </field>
+
+        <field
+                name="show_strict"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWSTRICT"
+                description="COM_TORTAGS_CATS_SHOWSTRICT_DESC"
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="result_show_readmore"
+                type="list"
+                label="COM_TORTAGS_USE_READMORE"
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="result_readmore_text"
+                type="text"
+                label="COM_TORTAGS_READMORE_TEXT"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="user_can_change"
+                type="list"
+                label="COM_TORTAGS_USER_CAN_EDIT"
+                description="COM_TORTAGS_USER_CAN_EDIT_DESC"
+                class="inputbox"
+                default="0"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="cats_show_count_elements"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWCOUNT_ELMTS"
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="cats_showtags"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWTAGS"
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="cats_show_elements"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWELEMENTS"
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="cats_show_alpha"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWALPHA"
+                class="inputbox"
+                size="1"
+                default="0"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="cats_show_strict"
+                type="list"
+                label="COM_TORTAGS_CATS_SHOWSTRICT"
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="show_alpha"
+                type="list"
+                label="COM_TORTAGS_ALLPAGE_SHOWALPHA"
+                class="inputbox"
+                size="1"
+                default="0"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="alphalimit"
+                type="text"
+                label="COM_TORTAGS_ALLPAGE_LIMIT"
+                class="inputbox"
+                size="5"
+                maxlength="3"
+                default="50"
+                />
+
+        <field
+                name="alltags_ordering"
+                type="list"
+                label="COM_TORTAGS_ALLTAGS_ORDERING"
+                class="inputbox"
+                default="ASC"
+                >
+            <option value="">COM_TORTAGS_ORDERING_NONE</option>
+            <option value="ASC">COM_TORTAGS_ORDERING_ASC</option>
+            <option value="DESC">COM_TORTAGS_ORDERING_DESC</option>
+        </field>
+
+        <field
+                name="tinel_count"
+                type="text"
+                label="COM_TORTAGS_TINEL_LIMIT"
+                class="inputbox"
+                size="5"
+                maxlength="3"
+                default="25"
+                />
+        <field
+                name="tinel_order"
+                type="list"
+                label="COM_TORTAGS_TINEL_ORDERING"
+                class="inputbox"
+                default="ASC"
+                >
+            <option value="">COM_TORTAGS_ORDERING_NONE</option>
+            <option value="ASC">COM_TORTAGS_ORDERING_ASC</option>
+            <option value="DESC">COM_TORTAGS_ORDERING_DESC</option>
+            <option value="RAND">COM_TORTAGS_ORDERING_RANDOM</option>
+        </field>
+
+        <field
+                name="tinel_showother"
+                type="list"
+                label="COM_TORTAGS_TINEL_SHOWOTHER"
+                description="COM_TORTAGS_TINEL_SHOWOTHER_DESC"
+                class="inputbox"
+                size="1"
+                default="0"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="tinel_showalltext"
+                type="text"
+                label="COM_TORTAGS_TINEL_SHOWALLTEXT"
+                class="inputbox"
+                size="40"
+                maxlength="150"
+                default="COM_TORTAGS_SHOWALLTEXT"
+                />
+
+        <field
+                name="tinel_pretext"
+                type="text"
+                label="COM_TORTAGS_TINEL_PRETEXT"
+                class="inputbox"
+                size="40"
+                maxlength="150"
+                default="COM_TORTAGS_PRETEXT"
+                />
+
+        <field
+                name="tinel_cats_show"
+                type="list"
+                label="COM_TORTAGS_TINEL_CATS_SHOW"
+                description=""
+                class="inputbox"
+                size="1"
+                default="0"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="tinel_cats_link"
+                type="list"
+                label="COM_TORTAGS_TINEL_CATS_LINK"
+                description=""
+                class="inputbox"
+                size="1"
+                default="1"
+                >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+
+        <field
+                name="tinel_cats_pretext"
+                type="text"
+                label="COM_TORTAGS_TINEL_CATS_PRETEXT"
+                class="inputbox"
+                size="40"
+                maxlength="150"
+                default="COM_TORTAGS_CATS_PRETEXT"
+                />
+
+
+        <field name="tinel_enbl_autoinsert" type="radio" default="1"
+               label="COM_TORTAGS_SETTINGS_ENABLE_AUTINSRT" description="COM_TORTAGS_SETTINGS_ENABLE_AUTINSRT_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="tinel_showonlyinarticle" type="radio" default="0"
+               label="COM_TORTAGS_SETTINGS_SHOW_ONLY_INART" description="COM_TORTAGS_SETTINGS_SHOW_ONLY_INART_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="tinel_showin" type="radio" default="0"
+               label="COM_TORTAGS_SETTINGS_WHERE_SHOW_AST" description="">
+            <option value="0">COM_TORTAGS_SETTINGS_WHERE_SHOW_AST_AFTER</option>
+            <option value="1">COM_TORTAGS_SETTINGS_WHERE_SHOW_AST_BEFORE</option>
+        </field>
+
+        <field
+                name="result_ordering_type"
+                type="list"
+                label="COM_TORTAGS_RPS_ORDERING_TYPE"
+                class="inputbox"
+                default="ASC"
+                >
+            <option value="ASC">COM_TORTAGS_RPS_ORDERING_TYPE_ASC</option>
+            <option value="DESC">COM_TORTAGS_RPS_ORDERING_TYPE_DESC</option>
+        </field>
+
+    </fieldset>
+    <fieldset name="permissions"
+              description="JCONFIG_PERMISSIONS_DESC"
+              label="JCONFIG_PERMISSIONS_LABEL"
+            >
+
+        <field name="rules" type="rules"
+               component="com_tortags"
+               filter="rules"
+               validate="rules"
+               label="JCONFIG_PERMISSIONS_LABEL"
+               section="component"/>
+    </fieldset>
+</form>

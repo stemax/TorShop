@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_TORTAGS_VIEW_CATEGORY_TITLE" option="COM_TORTAGS_VIEW_CATEGORY_TITLE">
+        <message>
+            <![CDATA[COM_TORTAGS_VIEW_CATEGORY_TITLE_DESC]]>
+        </message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+
+            <field name="id" type="sql"
+                   default=""
+                   label="Select a category"
+                   query="SELECT id, catname FROM #__tortags_categories WHERE published=1"
+                   value_field="catname"
+                   key_field="id"
+                    >
+                <option value="">-All categories-</option>
+            </field>
+            <field name="tt_js" type="list" size="1"
+                   description="Use prepare J!search"
+                   label="Use prepare J!search" default=""
+                    >
+                <option value="">Disable</option>
+                <option value="1">Enable</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</metadata>

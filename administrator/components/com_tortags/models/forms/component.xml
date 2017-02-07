@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/administrator/components/com_tortags/models/fields">
+    <fieldset name="details" label="COM_TORTAGS_COMPONENT_FIELDSET_DETAILS">
+        <field name="id" type="hidden"/>
+        <field
+                name="component"
+                type="text"
+                label="COM_TORTAGS_COMPONENT"
+                description="COM_TORTAGS_COMPONENT_DESC"
+                size="40"
+                class="inputbox"
+                required="true"
+                default="com_"
+                />
+
+        <field
+                name="table"
+                type="comptable"
+                label="COM_TORTAGS_COMPONENT_FIELD_TABLE"
+                description="COM_TORTAGS_COMPONENT_FIELD_TABLE_DESC"
+                size="40"
+                class="inputbox"
+                required="true"
+                default="#__"
+                />
+
+        <field
+                name="id_field"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_FIELD_ID"
+                description="COM_TORTAGS_COMPONENT_FIELD_ID_DESC"
+                size="8"
+                class="inputbox"
+                required="true"
+                default=""
+                />
+
+        <field
+                name="title_field"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_FIELD_TITLE"
+                description="COM_TORTAGS_COMPONENT_FIELD_TITLE_DESC"
+                size="30"
+                class="inputbox"
+                required="true"
+                default=""
+                />
+        <field
+                name="description_field"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_FIELD_DESCRIPTION"
+                description="COM_TORTAGS_COMPONENT_FIELD_DESCRIPTION_DESC"
+                size="30"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="created_field"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_FIELD_CREATED"
+                description="COM_TORTAGS_COMPONENT_FIELD_CREATED_DESC"
+                size="30"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="url_template"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_URL"
+                description="COM_TORTAGS_COMPONENT_URL_DESC"
+                size="70"
+                class="inputbox"
+                required="true"
+                default="index.php?option=[COMPONENT]&amp;view=myview&amp;id=[ID]"
+                />
+
+        <field
+                name="exc_views"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_EXCV"
+                description="COM_TORTAGS_COMPONENT_EXCV_DESC"
+                size="70"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="state_field"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_STATE_FIELD"
+                description="COM_TORTAGS_COMPONENT_STATE_FIELD_DESC"
+                size="70"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="state_status"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_STATE_STATUS"
+                description="COM_TORTAGS_COMPONENT_STATE_STATUS_DESC"
+                size="70"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="be_key"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_ADMIN_KEY"
+                description="COM_TORTAGS_COMPONENT_ADMIN_KEY_DESC"
+                size="70"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="fe_key"
+                type="text"
+                label="COM_TORTAGS_COMPONENT_FRONT_KEY"
+                description="COM_TORTAGS_COMPONENT_FRONT_KEY_DESC"
+                size="70"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="where_enable"
+                type="list"
+                label="COM_TORTAGS_COMPONENT_WHERE_ENABLE"
+                description="COM_TORTAGS_COMPONENT_WHERE_ENABLE_DESC"
+                size="1"
+                class="inputbox"
+                default="0"
+                >
+            <option value="0">COM_TORTAGS_COMPONENT_WHERE_ENABLE_BOTH</option>
+            <option value="1">COM_TORTAGS_COMPONENT_WHERE_ENABLE_BE</option>
+            <option value="2">COM_TORTAGS_COMPONENT_WHERE_ENABLE_FE</option>
+        </field>
+
+        <field name="def_lang" type="contentlanguage" label="JFIELD_LANGUAGE_LABEL"
+               description="COM_CONTENT_FIELD_LANGUAGE_DESC" class="inputbox"
+                >
+            <option value="*">JALL</option>
+        </field>
+
+    </fieldset>
+</form>
+

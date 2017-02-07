@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+    <name>com_tortags</name>
+    <creationDate>November 2012</creationDate>
+    <author>Tormix Team</author>
+    <authorEmail>support@tormix.com</authorEmail>
+    <authorUrl>http://tormix.com</authorUrl>
+    <copyright>Copyright 2010 - 2016. All rights reserved</copyright>
+    <license>GNU</license>
+    <version>3.2.2</version>
+    <description></description>
+    <scriptfile>script.php</scriptfile>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>tortags.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>assets</folder>
+        <folder>helpers</folder>
+        <folder>views</folder>
+        <folder>models</folder>
+    </files>
+
+    <media destination="com_tortags" folder="media">
+        <filename>index.html</filename>
+        <folder>images</folder>
+    </media>
+
+    <languages folder="site">
+        <language tag="en-GB">language/en-GB/en-GB.com_tortags.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.com_tortags.ini</language>
+        <language tag="es-ES">language/es-ES/es-ES.com_tortags.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.com_tortags.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.com_tortags.ini</language>
+        <language tag="uk-UA">language/uk-UA/uk-UA.com_tortags.ini</language>
+    </languages>
+
+    <administration>
+        <menu img="../media/com_tortags/images/tormix-16.png" alt="Tortags">COM_TORTAGS_MENU</menu>
+        <submenu>
+            <menu link="option=com_tortags&amp;view=components" alt="Components"
+                  img="components/com_tortags/assets/images/components.png">COM_TORTAGS_MENU_COMOPONENTS
+            </menu>
+            <menu link="option=com_tortags&amp;view=tags" alt="Tags"
+                  img="components/com_tortags/assets/images/tags.png">COM_TORTAGS_MENU_TAGS
+            </menu>
+            <menu link="option=com_tortags&amp;view=impexp" alt="Import(Export)"
+                  img="components/com_tortags/assets/images/import.png">COM_TORTAGS_MENU_IMPEX
+            </menu>
+            <menu link="option=com_tortags&amp;view=settings" alt="Settings"
+                  img="components/com_tortags/assets/images/settings.png">COM_TORTAGS_MENU_SETTINGS
+            </menu>
+            <menu link="option=com_tortags&amp;view=about" alt="About"
+                  img="components/com_tortags/assets/images/about.png">COM_TORTAGS_MENU_ABOUT
+            </menu>
+        </submenu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <filename>changelog.txt</filename>
+            <filename>tortags.php</filename>
+            <filename>controller.php</filename>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>assets</folder>
+        </files>
+
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_tortags.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_tortags.sys.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_tortags.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_tortags.sys.ini</language>
+            <language tag="es-ES">language/es-ES/es-ES.com_tortags.ini</language>
+            <language tag="es-ES">language/es-ES/es-ES.com_tortags.sys.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_tortags.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_tortags.sys.ini</language>
+            <language tag="fr-FR">language/fr-FR/fr-FR.com_tortags.ini</language>
+            <language tag="fr-FR">language/fr-FR/fr-FR.com_tortags.sys.ini</language>
+            <language tag="uk-UA">language/uk-UA/uk-UA.com_tortags.ini</language>
+            <language tag="uk-UA">language/uk-UA/uk-UA.com_tortags.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

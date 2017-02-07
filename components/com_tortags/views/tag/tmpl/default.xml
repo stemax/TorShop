@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_TORTAGS_VIEW_TAG_TITLE" option="COM_TORTAGS_VIEW_TAG_TITLE">
+        <message>
+            <![CDATA[COM_TORTAGS_VIEW_TAG_TITLE_DESC]]>
+        </message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request">
+
+            <field name="tag" type="text" size="20"
+                   description="COM_TORTAGS_VIEW_TAG_TITLE_LABEL_DESC"
+                   label="COM_TORTAGS_VIEW_TAG_TITLE_LABEL"
+                   required="true"
+                    />
+            <field name="tt_strong" type="list" size="1"
+                   description="Strong search"
+                   label="Strong search" default=""
+                    >
+                <option value="">Disable</option>
+                <option value="on">Enable</option>
+            </field>
+        </fieldset>
+    </fields>
+</metadata>

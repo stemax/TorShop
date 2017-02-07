@@ -1,0 +1,123 @@
+/**
+* TorTags component for Joomla 1.6, Joomla 1.7, Joomla 2.5, Joomla 3.x
+* @package TorTags
+* @author Tormix Team
+* @Copyright Copyright (C) Tormix, www.tormix.com
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html
+*/
+/*ICONS*/
+.icon-48-about {
+    background-image: url("../images/about48.png");
+}
+
+.icon-48-components {
+    background-image: url("../images/components48.png");
+}
+
+.icon-48-tags {
+    background-image: url("../images/tags48.png");
+}
+
+.icon-48-import {
+    background-image: url("../images/import48.png");
+}
+
+.icon-48-settings {
+    background-image: url("../images/settings48.png");
+}
+
+.tt_tablcenter {
+    text-align: center;
+    display: inline-block;
+}
+
+fieldset {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #CCCCCC !important;
+}
+
+.tt_succ_import {
+    background: url("../images/complete.png") no-repeat scroll 0px 0px transparent;
+    color: #3CAA3C;
+    padding-left: 20px;
+}
+
+.tt_error_import {
+    background: url("../images/error.png") no-repeat scroll 0px 0px transparent;
+    color: #cc3c43;
+    padding-left: 20px;
+}
+
+.tt_installed {
+    /*color: #3CAA3C;*/
+}
+
+.tt_not_installed {
+    color: #cc3c43;
+    text-shadow: 1px 1px 1px brown;
+}
+
+.tt_stat {
+    min-width: 200px;
+    float: right;
+    border: 1px solid #c3c3c3;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.radio {
+    border: none !important;
+    padding: 1px !important;
+}
+
+.tabs dt {
+    border-radius: 4px;
+}
+
+.tt_add_sel_tags {
+    border: 2px solid #C3C3C3;
+    border-radius: 5px;
+    color: #025A8D;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    background: -moz-linear-gradient(center top, #FFFFFF, #CCCCCC) repeat scroll 0 0 transparent;
+}
+
+.tt_add_sel_tags:hover {
+    background: -moz-linear-gradient(center top, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
+}
+
+.tortags-info-txt {
+    background-color: #0DA003;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Lucida Console;
+    margin: 3px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.tortags-info-txt img {
+    float: left;
+    padding: 3px;
+    width: 20px;
+}
+
+.tortags-info-left {
+    float: left;
+}
+
+.tortags-info-right {
+    float: right;
+}
+
+.tt_coprght {
+    clear: both;
+    line-height: 24px;
+}
