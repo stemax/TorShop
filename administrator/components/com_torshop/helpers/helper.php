@@ -7,10 +7,10 @@ class TorShopHelper
     public static function addSubmenu($submenu)
     {
         JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_CPANEL'), 'index.php?option=com_torshop&view=torshop', $submenu == 'torshop');
-        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_PRODUCTS'), 'index.php?option=com_torshop&view=components', $submenu == 'components');
-        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_ORDERS'), 'index.php?option=com_torshop&view=tags', $submenu == 'tags');
+        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_PRODUCTS'), 'index.php?option=com_torshop&view=products', $submenu == 'products');
+        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_ORDERS'), 'index.php?option=com_torshop&view=orders', $submenu == 'orders');
         JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_CATEGORIES'), 'index.php?option=com_torshop&view=cats', $submenu == 'cats');
-        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_CURRENCIES'), 'index.php?option=com_torshop&view=impexp', $submenu == 'impexp');
+        JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_CURRENCIES'), 'index.php?option=com_torshop&view=currencies', $submenu == 'currencies');
         JHtmlSidebar::addEntry(JText::_('COM_TORSHOP_SUBMENU_SETTINGS'), 'index.php?option=com_torshop&view=settings', $submenu == 'settings');
         return JHtmlSidebar::render();
     }

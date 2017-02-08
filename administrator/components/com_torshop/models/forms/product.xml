@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/administrator/components/com_torshop/models/fields">
+    <fieldset name="details" label="COM_TORSHOP_CAT_FIELDSET_DETAILS">
+        <field name="id" type="hidden"/>
+        <field
+                name="title"
+                type="text"
+                label="COM_TORSHOP_PRODUCTNAME"
+                description="COM_TORSHOP_PRODUCTNAME_DESC"
+                size="40"
+                class="inputbox"
+                required="true"
+                default=""
+                />
+
+        <field
+                name="alias"
+                type="text"
+                label="COM_TORSHOP_PRODUCTS_ALIAS"
+                description="COM_TORSHOP_ALIAS_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+
+        <field
+                name="image"
+                type="text"
+                label="COM_TORSHOP_IMAGE"
+                description="COM_TORSHOP_IMAGE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+
+        <field name="published" type="list" label="JSTATUS"
+               description="JFIELD_PUBLISHED_DESC" class="inputbox"
+               filter="intval" size="1" default="1"
+                >
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field>
+
+        <field
+                name="description"
+                type="editor"
+                label="Product description"
+                filter="JComponentHelper::filterText"
+                description=""
+                cols="3"
+                rows="4"
+                class="inputbox"
+                default=""
+                />
+    </fieldset>
+</form>
+
